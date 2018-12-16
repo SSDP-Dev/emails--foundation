@@ -1,4 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import 'settings';
 @import 'foundation-emails';
 
 @import 'template/template';
+
+
+
+// Custom styles - might be trash.
+
+body,
+html,
+.body {
+  font-family: "Open Sans", Arial, sans-serif!important;
+}
+.container {
+  border: 3px solid #17BEBB;
+}
+
+// Hero image with no margin or padding
+.hero-img {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.social-icon {
+  margin: 0 auto;
+  width: 25px;
+}
+
+// Background color classes
+
+.background{
+  &--green{
+    background-color: #aaf343;
+  }
+  &--gray {
+    background-color: #636467;
+  }
+}
+
+// Border color classes
+
+.border {
+  &--orange {
+    border: 2px solid #FAA732;
+  }
+}
+
+// Text color classes
+
+.text {
+  &--white {
+    color: #fff;
+  }
+  &--navy {
+    color: #003249;
+  }
+}

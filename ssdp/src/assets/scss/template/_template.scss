@@ -62,3 +62,15 @@ table.button.google table td {
 .container {
   border: 3px solid #17BEBB;
 }
+
+
+// Background color classes
+
+.background{
+  &--green{
+    background-color: #aaf343;
+  }
+  &--gray {
+    background-color: #636467;
+  }
+}

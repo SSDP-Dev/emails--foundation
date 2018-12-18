@@ -56,3 +56,15 @@ html,
     color: #003249;
   }
 }
+
+.mobile--hide {
+  @media all and (max-width: 596px){
+    display: none !important;
+  }
+}
+
+.desktop--hide {
+  @media all and (min-width: 596px) {
+    display: none !important;
+  }
+}

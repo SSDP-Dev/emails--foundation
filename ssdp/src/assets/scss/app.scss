@@ -1,70 +1,69 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import 'settings';
 @import 'foundation-emails';
-
 @import 'template/template';
-
-
-
 // Custom styles - might be trash.
-
 body,
 html,
 .body {
-  font-family: "Open Sans", Arial, sans-serif!important;
+    font-family: "Open Sans", Arial, sans-serif!important;
 }
+
 .container {
-  border: 3px solid #17BEBB;
+    border: 3px solid #17BEBB;
 }
 
 // Hero image with no margin or padding
 .hero-img {
-  padding: 0 0 2em 0 !important;
+    padding: 0 0 2em 0 !important;
 }
 
 .social-icon {
-  margin: 0 auto;
-  width: 25px;
+    margin: 0 auto;
+    width: 25px;
 }
 
 // Background color classes
-
-.background{
-  &--green{
-    background-color: #aaf343;
-  }
-  &--gray {
-    background-color: #636467;
-  }
+.background {
+    &--green {
+        background-color: #aaf343 !important;
+    }
+    &--gray {
+        background-color: #636467;
+    }
+    &--john-walsh-blue {
+        background-color: #146f8c;
+    }
+    &--teal {
+        background-color: #17BEBB;
+    }
 }
 
 // Border color classes
-
 .border {
-  &--orange {
-    border: 2px solid #FAA732;
-  }
+    &--orange {
+        border: 2px solid #FAA732;
+    }
 }
 
 // Text color classes
-
 .text {
-  &--white {
-    color: #fff;
-  }
-  &--navy {
-    color: #003249;
-  }
+    &--white {
+        color: #fff;
+    }
+    &--navy {
+        color: #003249;
+    }
 }
 
 .mobile--hide {
-  @media all and (max-width: 596px){
-    display: none !important;
-  }
+    @media all and (max-width: 596px) {
+        display: none !important;
+    }
 }
 
 .desktop--hide {
-  @media all and (min-width: 596px) {
-    display: none !important;
-  }
+    @media all and (min-width: 596px) {
+        display: none !important;
+    }
 }
